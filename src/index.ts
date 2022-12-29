@@ -7,7 +7,7 @@ const port = 3000;
 
 
 //define route handler ImageProcessor, sendFile from local machine
-app.use('/ImageProessingAPI', routes);
+app.use('/ImageProcessor', routes);
 
 
 
