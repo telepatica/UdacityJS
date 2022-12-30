@@ -1,15 +1,11 @@
-import express from 'express'
-import newPayload from './utilities/sharp'
-import routes from './src/routes/resizeparams'
+import express from 'express';
+import routes from './routes/resizeparams';
 
 const app = express();
 const port = 3000;
 
-
-//define route handler ImageProcessor, sendFile from local machine
-app.use('/ImageProcessor', routes);
-
-
+//define route handler for Image
+app.use('/', routes);
 
 // start the Express server
 app.listen(port, ()=> {
