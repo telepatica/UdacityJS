@@ -1,0 +1,6 @@
+{
+    "projectManager.git.baseFolders": [
+        "UdacityJS"
+    ],
+    "git.ignoreLimitWarning": true
+}
