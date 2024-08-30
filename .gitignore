@@ -31,6 +31,10 @@ jspm_packages/
 # Output of 'npm pack'
 *.tgz
 
+#images 
+png
+*.png
+
 
 # dotenv environment variables file
 .env
